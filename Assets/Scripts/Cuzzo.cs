@@ -12,7 +12,7 @@ public class Cuzzo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-         for (int i = 1; i <= 10; i++)
+         for (int i = 0; i <= 3; i++)
          {
             objects[i].GetComponent<Renderer>().material.color = colors[i];
          }
